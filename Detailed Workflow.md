@@ -1,6 +1,6 @@
 # Detailed Workflow
 
-updated: 25 May 2021
+updated: 04 June 2021
 
 ### Needed Software
 * [Box Drive](https://access.tufts.edu/box): A file sharing and cloud backup system. Tufts pays for students to have access to an 'unlimited' account with no charge for the student. To download, login with your Tufts credentials, Click on the icon with your initials in the upper right corner of the screen, select *Apps* from the dropdown menu, then click *Box Drive* to get the install files and instructions.
@@ -46,5 +46,12 @@ ImageJ is a free software package developed by the U.S. National Institutes of H
 	- Quit Fiji and restart the application. Now every time you open Fiji, the macro will load automatically so you should never have to repeat the steps in this section.
 
 ---
-### Making Measurements Usinf Fiji/ImageJ
+### Making Measurements Using Fiji/ImageJ
 
+- Open the PDF of the paper you want to extract measurements from. Once open, you can use the right and left arrow keys to navigate from page to page and find the figure of interest. (ImageJ has an annoyingly antiquated user interface.)
+- Once you've found the figure you want to measure, zoom in with &#8984;+. Hold cursor over place on page you want centered. You can't move the image around by scrolling or with your mouse. To zoom out again, use &#8984;—. 
+- The first thing you want to do is set the scale so that ImageJ will convert a size in pixels to real sizes of the objects illustrated in millimeters.
+	- Select the line segment tool from the tool bar (diagonal line; if you hold the button down, a window will pop up so you can make the lines thicker and easier to see).
+	- Zoom into the specimen and scale bar you want to measure. Draw a line across the scale bar. **Hold down the Shift key as you draw your line!** This will force your line to be straight. On the image below, a hellow line has been drawn across the length of the scale bare that is located under the number 11. ![draw line segment](img/scalebar.png)
+	- Now you are ready to set the scale. Open the Set Scale window, which is under the Analyze menu. ![set scale menu](img/setscalemenu.png)
+	- There are four items in this window that can be set. The first is *Distance in pixels*. This is the length of the scale bar in pixels and has already been set for you by ImageJ; in the example below, the scale bar is 20 pixels long. ![setting the scale](img/setscalewindow.png) Second is the known distance. You need to enter this from the figure caption. Unfortunately, ImageJ reduces the image quality on multi-page PDFs, so you may need to open the original PDF in Preview or some other PDF reader to read the catption. In this particular example, The scale bar for part 12 is 200 &mu;m and 100 &mu;m for all other parts. We're measuring part 11, so the scale bar is 100 &mu;m. ![hi rez figure caption](img/caption.png)
