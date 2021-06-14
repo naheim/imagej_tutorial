@@ -5,7 +5,7 @@ updated: 11 June 2021
 ### Needed Software
 * [Box Drive](https://access.tufts.edu/box): A file sharing and cloud backup system. Tufts pays for students to have access to an 'unlimited' account with no charge for the student. To download, login with your Tufts credentials, Click on the icon with your initials in the upper right corner of the screen, select *Apps* from the dropdown menu, then click *Box Drive* to get the install files and instructions.
 * Spreadsheet software: We will use a spreadsheet to enter and store data. There are a number of options, so whichever one you are most comfortable with is fine. Options include Excel, Numbers, and Google Sheets.
-* [Fiji](https://imagej.net/Fiji) distribution of imageJ: A software package that allows us to make measurements from digital images. 
+* [Fiji](https://imagej.net/Fiji) distribution of imageJ: A software package that allows us to make measurements from digital images. <span style="color:red"> **WINDOWS USERS** A notice from ImageJ about where to install the program on your computer: *If you are installing ImageJ on Windows, we strongly recommend that you store your ImageJ.app directory somewhere in your user space (e.g., C:\Users\[your name]\ImageJ.app) rather than in C:\Program Files or other system-wide directory. If you move ImageJ.app to such a directory, modern versions of Windows will deny ImageJ write permission to its own directory structure, preventing it from being able to update.*</span>
 * [R](https://cran.r-project.org): A statistical analysis and graphics software package. This is a powerful open source platform that is the standard in many scientific disciplines, including paleontology.
 
 ---
