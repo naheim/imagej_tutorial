@@ -1,6 +1,6 @@
 # Detailed Workflow
 
-updated: 11 June 2021
+updated: 14 June 2021
 
 ### Needed Software
 * [Box Drive](https://access.tufts.edu/box): A file sharing and cloud backup system. Tufts pays for students to have access to an 'unlimited' account with no charge for the student. To download, login with your Tufts credentials, Click on the icon with your initials in the upper right corner of the screen, select *Apps* from the dropdown menu, then click *Box Drive* to get the install files and instructions.
